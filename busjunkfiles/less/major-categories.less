@@ -1,0 +1,48 @@
+@import "preboot.less";
+
+#major-categories {
+
+ 
+
+  g {
+    position:relative;
+
+    div {
+      width: 200px;
+      height: 100px;
+      background: black;
+      position: absolute;
+      top:0px;
+      left:0px;
+    }
+
+    .overlabel {
+      visibility: hidden;
+    }
+
+    &.hover .overlabel {
+      visibility: visible;
+    }
+
+  }
+
+  circle {
+    fill:transparent;
+  }
+
+  circle.border {
+    stroke:#888;
+    fill:transparent; 
+    //cursor:pointer;
+//    stroke-width:2;
+  }
+
+  text {
+    fill:#fff;
+    font-family:Montserrat;
+    text-transform: uppercase;
+
+  }
+
+
+}

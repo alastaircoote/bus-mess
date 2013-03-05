@@ -1,0 +1,15 @@
+[
+{"name":"Computer and Mathematical", "value": 86519, "x": 664, "y": 325, "isBig":true},
+{"name":"Business and Financial Operations", "value": 15068, "x": 413, "y": 52},
+{"name":"Architecture and Engineering", "value": 12532, "x":345, "y":156},
+{"name":"Life, Physical, and Social Science", "value": 8291, "x": 316, "y":244},
+{"name":"Healthcare Practitioners and Technical", "value": 7995, "x": 304, "y":319},
+{"name":"Management", "value": 7224, "x":319, "y":390},
+{"name":"Education, Training, and Library", "value": 4569, "x":341, "y": 447},
+{"name":"Arts, Design, Entertainment, Sports, and Media", "value": 3280, "x":360, "y":488},
+{"name":"Sales and Related", "value": 924,"x":393, "y":520},
+{"name":"Legal", "value": 589, "x":410, "y":546},
+{"name":"Community and Social Service", "value": 501, "x":440, "y":570},
+{"name":"Office and Administrative Support", "value": 198, "x":473, "y":596},
+{"name":"Other", "value": 328, "x":491, "y":615}
+]
