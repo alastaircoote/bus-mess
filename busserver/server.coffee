@@ -10,7 +10,7 @@ io = require("socket.io").listen(server).set("log level", 2)
 url = require "url"
 http = require "http"
 
-app.use(express.static(__dirname+"/../busjunk"))
+app.use(express.static(__dirname+"/../busjunkfiles"))
 
 app.get "/imgpassthrough", (req,res) ->
     parsed = url.parse(req.query.img)
