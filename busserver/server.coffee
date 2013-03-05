@@ -66,6 +66,6 @@ monitor.streamAlter = (data) ->
 
     io.sockets.emit "tweet", data
 
-monitor.filter(busF.createFilterStatement(", "))
+monitor.filter(busF.createFilterStatement(","))
 
 
