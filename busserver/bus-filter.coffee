@@ -22,7 +22,7 @@ users =
 module.exports = class BusFilter
 
     createFilterStatement: (joiner) ->
-        filterterms = ["startupbus"]
+        filterterms = ["startupbus","thestartupbus"]
 
         for key in Object.keys(hashtags)
             for term in hashtags[key]
