@@ -1,7 +1,7 @@
  
 hashtags =
     east: ["startupbusnyc", "startupbuseast", "startupbusec"]
-    south: ["startupbusfl"]
+    south: ["startupbusfl","startupbusse"]
     midwest: ["startupbuschi"]
     mexico: ["startupbusmx","startupbusmexico"]
 
