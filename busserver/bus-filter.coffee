@@ -29,8 +29,7 @@ module.exports = class BusFilter
                 filterterms.push "#" + term
 
          for key in Object.keys(users)
-            for term in hashtags[key]
-                filterterms.push "@" + term
+                filterterms.push "@" + users[key]
 
         return filterterms.join(joiner)
 
