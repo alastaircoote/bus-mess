@@ -13,9 +13,9 @@ define ["d3"], (d3) ->
 
             @dimensions.center = 
                 x: @dimensions.width / 2
-                y: @dimensions.height / 2
+                y: @dimensions.height / 2 + 70
 
-            @dimensions.height = @dimensions.height * 0.8
+            @dimensions.height = @dimensions.height * 0.8 - 70
 
             @smallestEdge = $(window).height()
             if $(window).width() < @smallestEdge then @smallestEdge = $(window).width()
@@ -34,6 +34,7 @@ define ["d3"], (d3) ->
                     if newObj.bus.indexOf(node.key) > -1
                         if !preventUpdate then node.count = node.count + 1
                         @chargedNodes.push(node)
+                        node.lastTweet = newObj
 
                         if newObj.user
                             img = newObj.user.profile_image_url.replace("_normal","")

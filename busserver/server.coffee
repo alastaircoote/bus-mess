@@ -22,7 +22,7 @@ app.get "/imgpassthrough", (req,res) ->
 
 
 server.listen(4545)
-
+return
 
 monitor = new TwitterMonitor()
 

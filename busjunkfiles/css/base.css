@@ -179,27 +179,22 @@ h1 {
   margin-bottom: 40px;
   margin-top: 10px;
   font-weight: 300;
+  margin-left: 10px;
 }
 h1 em {
   color: #aaaaaa;
-  display: block;
   font-weight: 400;
   font-size: 68px;
 }
 h2 {
-  font-family: "Crimson Text", serif;
-  font-size: 25px;
-  margin: 0;
-  line-height: 35px;
-  color: #333;
-}
-h2 .leader {
-  display: block;
-  float: left;
-  font-weight: 600;
-  font-size: 90px;
-  line-height: 70px;
-  padding-right: 5px;
+  font-family: "Montserrat", serif;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  width: 400px;
+  font-size: 18px;
+  text-align: right;
 }
 h3 {
   font-family: "Oswald";
@@ -479,6 +474,7 @@ p {
 }
 #major-categories circle {
   fill: transparent;
+  cursor: pointer;
 }
 #major-categories circle.border {
   stroke: #888;

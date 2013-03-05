@@ -29,9 +29,9 @@
         };
         this.dimensions.center = {
           x: this.dimensions.width / 2,
-          y: this.dimensions.height / 2
+          y: this.dimensions.height / 2 + 70
         };
-        this.dimensions.height = this.dimensions.height * 0.8;
+        this.dimensions.height = this.dimensions.height * 0.8 - 70;
         this.smallestEdge = $(window).height();
         if ($(window).width() < this.smallestEdge) {
           return this.smallestEdge = $(window).width();
@@ -59,6 +59,7 @@
                 node.count = node.count + 1;
               }
               _this.chargedNodes.push(node);
+              node.lastTweet = newObj;
               if (newObj.user) {
                 img = newObj.user.profile_image_url.replace("_normal", "");
                 node.img.attr("xlink:href", "/imgpassthrough?img=" + img);
