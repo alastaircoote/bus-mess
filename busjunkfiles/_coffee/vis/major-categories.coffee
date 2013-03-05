@@ -13,9 +13,9 @@ define ["d3"], (d3) ->
 
             @dimensions.center = 
                 x: @dimensions.width / 2
-                y: @dimensions.height / 2 + 70
+                y: @dimensions.height / 2
 
-            @dimensions.height = @dimensions.height * 0.8 - 70
+            @dimensions.height = @dimensions.height * 0.8 
 
             @smallestEdge = $(window).height()
             if $(window).width() < @smallestEdge then @smallestEdge = $(window).width()

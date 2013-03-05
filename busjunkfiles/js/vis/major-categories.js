@@ -29,9 +29,9 @@
         };
         this.dimensions.center = {
           x: this.dimensions.width / 2,
-          y: this.dimensions.height / 2 + 70
+          y: this.dimensions.height / 2
         };
-        this.dimensions.height = this.dimensions.height * 0.8 - 70;
+        this.dimensions.height = this.dimensions.height * 0.8;
         this.smallestEdge = $(window).height();
         if ($(window).width() < this.smallestEdge) {
           return this.smallestEdge = $(window).width();
